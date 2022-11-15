@@ -1,0 +1,627 @@
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 16.9 C    Humidity: 76.8% 
+ --- image saved --- 22:50:34s__26:09:2022__16.9c__76.8h__newMoon.jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 16.9 C    Humidity: 76.8% 
+ --- image saved --- 22:50:43s__26:09:2022__16.9c__76.8h__newMoon.jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 16.9 C    Humidity: 76.8% 
+ --- image saved --- 22:50:50s__26:09:2022__16.9c__76.8h__newMoon.jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 16.9 C    Humidity: 76.8% 
+ --- image saved --- 22:50:57s__26:09:2022__16.9c__76.8h__newMoon.jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 16.9 C    Humidity: 76.8% 
+ --- image saved --- 22:51:03s__26:09:2022__16.9c__76.8h__newMoon.jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 16.9 C    Humidity: 76.7% 
+ --- except --- 
+ --- GPIO cleanup ---
+ --- Finally ---
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 15.4 C    Humidity: 77.5% 
+ --- image saved --- 20:26:42s__29:09:2022__15.4c__77.5h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 16.0 C    Humidity: 75.9% 
+ --- image saved --- 20:26:48s__29:09:2022__16.0c__75.9h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 16.0 C    Humidity: 76.0% 
+ --- image saved --- 20:27:05s__29:09:2022__16.0c__76.0h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 16.0 C    Humidity: 76.0% 
+ --- image saved --- 20:27:23s__29:09:2022__16.0c__76.0h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+ --- Keyboard Interrupt --- 
+ --- GPIO cleanup ---
+ --- Finally ---
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 16.2 C    Humidity: 76.3% 
+ --- image saved --- 20:30:12s__29:09:2022__16.2c__76.3h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 16.2 C    Humidity: 76.7% 
+ --- image saved --- 20:30:26s__29:09:2022__16.2c__76.7h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 16.3 C    Humidity: 76.1% 
+ --- image saved --- 20:30:45s__29:09:2022__16.3c__76.1h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 16.3 C    Humidity: 76.1% 
+ --- image saved --- 20:30:59s__29:09:2022__16.3c__76.1h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 16.3 C    Humidity: 76.3% 
+ --- image saved --- 20:31:05s__29:09:2022__16.3c__76.3h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 16.3 C    Humidity: 76.1% 
+ --- image saved --- 20:31:16s__29:09:2022__16.3c__76.1h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 16.4 C    Humidity: 76.2% 
+ --- image saved --- 20:31:25s__29:09:2022__16.4c__76.2h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 16.4 C    Humidity: 79.0% 
+ --- image saved --- 20:31:36s__29:09:2022__16.4c__79.0h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 16.5 C    Humidity: 78.4% 
+ --- image saved --- 20:31:48s__29:09:2022__16.5c__78.4h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 16.5 C    Humidity: 77.9% 
+ --- image saved --- 20:31:54s__29:09:2022__16.5c__77.9h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 16.5 C    Humidity: 77.3% 
+ --- image saved --- 20:32:00s__29:09:2022__16.5c__77.3h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 16.5 C    Humidity: 77.0% 
+ --- image saved --- 20:32:06s__29:09:2022__16.5c__77.0h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 16.5 C    Humidity: 76.7% 
+ --- image saved --- 20:32:13s__29:09:2022__16.5c__76.7h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 16.5 C    Humidity: 76.5% 
+ --- image saved --- 20:32:19s__29:09:2022__16.5c__76.5h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 16.6 C    Humidity: 76.0% 
+ --- image saved --- 20:32:25s__29:09:2022__16.6c__76.0h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 16.7 C    Humidity: 75.9% 
+ --- image saved --- 20:32:39s__29:09:2022__16.7c__75.9h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 16.6 C    Humidity: 76.8% 
+ --- image saved --- 20:32:48s__29:09:2022__16.6c__76.8h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 16.7 C    Humidity: 75.7% 
+ --- image saved --- 20:32:54s__29:09:2022__16.7c__75.7h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 16.7 C    Humidity: 75.7% 
+ --- image saved --- 20:33:05s__29:09:2022__16.7c__75.7h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 16.8 C    Humidity: 75.8% 
+ --- image saved --- 20:33:11s__29:09:2022__16.8c__75.8h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 16.8 C    Humidity: 76.2% 
+ --- image saved --- 20:33:20s__29:09:2022__16.8c__76.2h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 16.9 C    Humidity: 75.7% 
+ --- image saved --- 20:33:26s__29:09:2022__16.9c__75.7h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 16.9 C    Humidity: 75.6% 
+ --- image saved --- 20:33:33s__29:09:2022__16.9c__75.6h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.0 C    Humidity: 75.8% 
+ --- image saved --- 20:33:39s__29:09:2022__17.0c__75.8h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.0 C    Humidity: 76.0% 
+ --- image saved --- 20:33:48s__29:09:2022__17.0c__76.0h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.1 C    Humidity: 75.4% 
+ --- image saved --- 20:34:01s__29:09:2022__17.1c__75.4h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.1 C    Humidity: 75.3% 
+ --- image saved --- 20:34:13s__29:09:2022__17.1c__75.3h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.2 C    Humidity: 75.2% 
+ --- image saved --- 20:34:19s__29:09:2022__17.2c__75.2h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.2 C    Humidity: 75.0% 
+ --- image saved --- 20:34:25s__29:09:2022__17.2c__75.0h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.3 C    Humidity: 75.9% 
+ --- image saved --- 20:34:32s__29:09:2022__17.3c__75.9h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.4 C    Humidity: 75.2% 
+ --- image saved --- 20:34:43s__29:09:2022__17.4c__75.2h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.5 C    Humidity: 74.5% 
+ --- image saved --- 20:34:52s__29:09:2022__17.5c__74.5h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.5 C    Humidity: 74.5% 
+ --- image saved --- 20:35:03s__29:09:2022__17.5c__74.5h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.5 C    Humidity: 75.7% 
+ --- image saved --- 20:35:09s__29:09:2022__17.5c__75.7h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.6 C    Humidity: 75.4% 
+ --- image saved --- 20:35:15s__29:09:2022__17.6c__75.4h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+ --- Keyboard Interrupt --- 
+ --- GPIO cleanup ---
+ --- Finally ---
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.6 C    Humidity: 76.7% 
+ --- image saved --- 20:38:12s__29:09:2022__17.6c__76.7h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.9 C    Humidity: 72.0% 
+ --- image saved --- 20:38:18s__29:09:2022__17.9c__72.0h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.9 C    Humidity: 72.1% 
+ --- image saved --- 20:38:27s__29:09:2022__17.9c__72.1h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.8 C    Humidity: 72.5% 
+ --- image saved --- 20:38:44s__29:09:2022__17.8c__72.5h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.8 C    Humidity: 72.8% 
+ --- image saved --- 20:38:50s__29:09:2022__17.8c__72.8h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.8 C    Humidity: 72.8% 
+ --- image saved --- 20:38:59s__29:09:2022__17.8c__72.8h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.8 C    Humidity: 72.6% 
+ --- image saved --- 20:39:05s__29:09:2022__17.8c__72.6h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.8 C    Humidity: 72.6% 
+ --- image saved --- 20:39:21s__29:09:2022__17.8c__72.6h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.8 C    Humidity: 72.8% 
+ --- image saved --- 20:39:27s__29:09:2022__17.8c__72.8h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.8 C    Humidity: 72.7% 
+ --- image saved --- 20:39:36s__29:09:2022__17.8c__72.7h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.8 C    Humidity: 72.3% 
+ --- image saved --- 20:39:42s__29:09:2022__17.8c__72.3h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.7 C    Humidity: 72.1% 
+ --- image saved --- 20:39:48s__29:09:2022__17.7c__72.1h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.7 C    Humidity: 72.3% 
+ --- image saved --- 20:40:00s__29:09:2022__17.7c__72.3h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.7 C    Humidity: 72.3% 
+ --- image saved --- 20:40:11s__29:09:2022__17.7c__72.3h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.7 C    Humidity: 72.0% 
+ --- image saved --- 20:40:23s__29:09:2022__17.7c__72.0h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.7 C    Humidity: 72.1% 
+ --- image saved --- 20:40:38s__29:09:2022__17.7c__72.1h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.7 C    Humidity: 72.1% 
+ --- image saved --- 20:40:50s__29:09:2022__17.7c__72.1h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.8 C    Humidity: 72.0% 
+ --- image saved --- 20:40:56s__29:09:2022__17.8c__72.0h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.7 C    Humidity: 72.0% 
+ --- image saved --- 20:41:02s__29:09:2022__17.7c__72.0h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.8 C    Humidity: 72.1% 
+ --- image saved --- 20:41:10s__29:09:2022__17.8c__72.1h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.8 C    Humidity: 72.1% 
+ --- image saved --- 20:41:19s__29:09:2022__17.8c__72.1h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.7 C    Humidity: 72.2% 
+ --- image saved --- 20:41:30s__29:09:2022__17.7c__72.2h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.8 C    Humidity: 72.1% 
+ --- image saved --- 20:41:36s__29:09:2022__17.8c__72.1h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.8 C    Humidity: 73.0% 
+ --- image saved --- 20:41:42s__29:09:2022__17.8c__73.0h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.8 C    Humidity: 72.9% 
+ --- image saved --- 20:41:49s__29:09:2022__17.8c__72.9h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.8 C    Humidity: 72.4% 
+ --- image saved --- 20:42:00s__29:09:2022__17.8c__72.4h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.8 C    Humidity: 72.1% 
+ --- image saved --- 20:42:11s__29:09:2022__17.8c__72.1h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.8 C    Humidity: 72.0% 
+ --- image saved --- 20:42:20s__29:09:2022__17.8c__72.0h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.8 C    Humidity: 71.9% 
+ --- image saved --- 20:42:31s__29:09:2022__17.8c__71.9h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.8 C    Humidity: 72.0% 
+ --- except --- 
+ --- GPIO cleanup ---
+ --- Finally ---
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.7 C    Humidity: 72.3% 
+ --- image saved --- 20:46:02s__29:09:2022__17.7c__72.3h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.7 C    Humidity: 73.5% 
+ --- image saved --- 20:46:13s__29:09:2022__17.7c__73.5h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.7 C    Humidity: 72.7% 
+ --- image saved --- 20:46:30s__29:09:2022__17.7c__72.7h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.7 C    Humidity: 72.6% 
+ --- image saved --- 20:46:45s__29:09:2022__17.7c__72.6h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.7 C    Humidity: 73.3% 
+ --- image saved --- 20:46:52s__29:09:2022__17.7c__73.3h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.7 C    Humidity: 73.0% 
+ --- image saved --- 20:47:01s__29:09:2022__17.7c__73.0h__cresent(right).jpg
+ --- Keyboard Interrupt --- 
+ --- GPIO cleanup ---
+ --- Finally ---
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.7 C    Humidity: 72.2% 
+ --- image saved --- 20:47:50s__29:09:2022__17.7c__72.2h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.7 C    Humidity: 72.2% 
+ --- image saved --- 20:48:04s__29:09:2022__17.7c__72.2h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.7 C    Humidity: 72.2% 
+ --- image saved --- 20:48:10s__29:09:2022__17.7c__72.2h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.7 C    Humidity: 72.1% 
+ --- image saved --- 20:48:26s__29:09:2022__17.7c__72.1h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.7 C    Humidity: 72.1% 
+ --- image saved --- 20:48:37s__29:09:2022__17.7c__72.1h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.7 C    Humidity: 71.8% 
+ --- image saved --- 20:48:43s__29:09:2022__17.7c__71.8h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.6 C    Humidity: 72.2% 
+ --- image saved --- 20:49:05s__29:09:2022__17.6c__72.2h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.6 C    Humidity: 71.7% 
+ --- image saved --- 20:50:05s__29:09:2022__17.6c__71.7h__cresent(right).jpg
+ --- Keyboard Interrupt --- 
+ --- GPIO cleanup ---
+ --- Finally ---
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.5 C    Humidity: 72.1% 
+ --- image saved --- 20:51:20s__29:09:2022__17.5c__72.1h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.5 C    Humidity: 72.1% 
+ --- image saved --- 20:51:36s__29:09:2022__17.5c__72.1h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.5 C    Humidity: 72.1% 
+ --- image saved --- 20:51:42s__29:09:2022__17.5c__72.1h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.5 C    Humidity: 72.1% 
+ --- image saved --- 20:51:49s__29:09:2022__17.5c__72.1h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.5 C    Humidity: 72.2% 
+ --- image saved --- 20:51:59s__29:09:2022__17.5c__72.2h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.5 C    Humidity: 72.3% 
+ --- image saved --- 20:52:05s__29:09:2022__17.5c__72.3h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.5 C    Humidity: 72.1% 
+ --- image saved --- 20:52:13s__29:09:2022__17.5c__72.1h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.5 C    Humidity: 71.9% 
+ --- image saved --- 20:52:22s__29:09:2022__17.5c__71.9h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.4 C    Humidity: 71.6% 
+ --- image saved --- 20:52:28s__29:09:2022__17.4c__71.6h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.4 C    Humidity: 71.6% 
+ --- image saved --- 20:52:35s__29:09:2022__17.4c__71.6h__cresent(right).jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.4 C    Humidity: 71.5% 
+ --- image saved --- 20:53:04s__29:09:2022__17.4c__71.5h__cresent(right).jpg
+ --- Keyboard Interrupt --- 
+ --- GPIO cleanup ---
+ --- Finally ---
