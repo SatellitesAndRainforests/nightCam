@@ -6,6 +6,7 @@ import RPi.GPIO as GPIO
 from picamera import PiCamera
 from time import sleep
 from datetime import datetime
+from sys import exit
 
 #GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
@@ -19,12 +20,17 @@ DHT_GPIO_PIN = 24
 
 baseline_new_moon = datetime(2022, 2, 1)    # There was a new moon on this date at 00:46am.
 
-
-
-#camera=PiCamera()
+def check_status_is_idle_or_exit():
+    with open("/home/pi/nightCam/nvCamStatus.txt", "r") as status_file:
+        status = status_file.readline().strip()
+        print("status is: " + status)
+        if (status != "status:idle"):
+            print("nvCam is not idle")
+            print("exiting nightWatch.py")
+            exit()
 
 def write_to_log( message ):
-    with open("log.txt", "a") as log_file:
+    with open("/home/pi/nightCam/log.txt", "a") as log_file:
         print( message + "\n" )
         log_file.write( message + "\n" )
 
@@ -78,25 +84,25 @@ def calc_moon_phase():
         moonphase = "newMoon"                      # Each phase is 29.53 / 8 (for the 8 phases) with the new-moon center = 0
 
     elif (modulos >= 1.84 and modulos < 5.53):
-        moonphase = "cresent(right)"
+        moonphase = "cresent_right_"
 
     elif (modulos >= 5.53 and modulos < 9.22):
-        moonphase = "halfMoon(right)"
+        moonphase = "halfMoon_right_"
 
     elif (modulos >= 9.22 and modulos < 12.91):
-        moonphase = "3of4moon(right)"
+        moonphase = "3of4moon_right_"
 
     elif (modulos >= 12.91 and modulos < 16.61):
         moonphase = "fullMoon"
 
     elif (modulos >= 16.61 and modulos < 20.30):
-        moonphase = "3of4moon(left)"
+        moonphase = "3of4moon_left_"
 
     elif (modulos >= 20.30 and modulos < 23.99):
-        moonphase = "halfMoon(left)" 
+        moonphase = "halfMoon_left_" 
 
     elif (modulos >= 23.99 and modulos < 27.68):
-        moonphase = "cresent(left)"
+        moonphase = "cresent_left_"
 
     return moonphase
 
@@ -134,20 +140,28 @@ def add_information_to_filename():
     write_to_log (" --- image saved --- " + new_filename)
 
 
+def check_status_is_still_capturing_or_exit():
+    with open("/home/pi/nightCam/nvCamStatus.txt", "r") as status_file:
+        status = status_file.readline().strip()
+        if (status != "status:capturing"):
+            print("exiting nightWatch.py")
+            exit()
 
 
 def main():
 
+    check_status_is_idle_or_exit()
     write_status_to_file("status:capturing")
 
     try:
         while True:
+            check_status_is_still_capturing_or_exit()
             i = GPIO.input(17)      # sensor sends 1 for motion, otherwise 0
             if i==1:
                 write_to_log(" --- Motion Detected --- ")
                 capture_image()
                 add_information_to_filename()
-                # sleep(5)
+                sleep(1)
 
     except KeyboardInterrupt:
         write_to_log(" --- Keyboard Interrupt --- ")

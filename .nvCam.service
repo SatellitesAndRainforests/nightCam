@@ -1,0 +1,11 @@
+[Unit]
+Description=set nvCamStatus.txt to 'idle' on boot
+After=multi-user.target
+
+[Service]
+Type=idle
+WorkingDirectory=/home/pi/nightCam
+ExecStart=/bin/bash bootScript.sh
+
+[Install]
+WantedBy=multi-user.target
