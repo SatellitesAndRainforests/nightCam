@@ -48,10 +48,10 @@ def capture_image():
     
     write_to_log(" --- taking photo --- ")
     cameraCommand = ('raspistill '
-            #'-ss 750000 '  #3/4 of a second - fastest best image with motion blur.
+            '-ss 750000 '  #3/4 of a second - fastest best image with motion blur.
             # '-ss 40000 '   #1/25 of a second (very little motion blur at a very close range ~30cm).
             # '-ss 40000 '   #1/25 [New Light] iso 800 grany, dark. little motion blur. try a little longer.
-             '-ss 80000 '   #2/25 [New Light] iso 800 grany, dark. little motion blur. try a little longer.
+            # this one --> '-ss 80000 '   #2/25 [New Light] iso 800 grany, dark. little motion blur. try a little longer.
             #'-ss 250000 '   #1/4 of a second (complete background, some motion blur ~2meters) 
                                 #Can get some OK images at every distance with the background.
             #'-ss 100000 '  #1/10 of a second (almost no background, motion blur ~2meters).

@@ -2,7 +2,8 @@ import requests
 import glob
 import os
 
-url = 'http://192.168.1.23:8080/captures/image-from-client'
+#url = 'http://192.168.1.23:8080/captures/image-from-client'
+url = 'http://10.3.141.108:8080/captures/image-from-client'
 
 
 def sendImages():
