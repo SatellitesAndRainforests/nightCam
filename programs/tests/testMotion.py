@@ -15,4 +15,4 @@ while True:
         print("----------- Motion Detected ----------")
         print(count)
         count += 1
-        sleep(0.7)
+        sleep(1)

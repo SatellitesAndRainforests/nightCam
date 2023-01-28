@@ -2,6 +2,7 @@
 ++ dirname /home/pi/nightCam/programs/RPi_Cam_Web_Interface/stop.sh
 + cd /home/pi/nightCam/programs/RPi_Cam_Web_Interface
 + source ./config.txt
+<<<<<<< Updated upstream
 ++ rpicamdir=nightVisionCam
 ++ webserver=nginx
 ++ webport=80
@@ -9,6 +10,15 @@
 ++ webpasswd=password
 ++ autostart=no
 ++ jpglink=yes
+=======
+++ rpicamdir=html
+++ webserver=apache
+++ webport=80
+++ user=
+++ webpasswd=
+++ autostart=no
+++ jpglink=no
+>>>>>>> Stashed changes
 ++ phpversion=7.4
 + fn_stop
 + sudo killall raspimjpeg
