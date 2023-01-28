@@ -26,6 +26,11 @@
 	# Activate I2C and enable DS3231 RTC
 	dtoverlay=i2c-rtc,ds3231
   
+  curl -sL https://install.raspap.com | bash
+10.3.141.1
+admin
+secret
+ChangeMe
 
   nightWatch should work
 
