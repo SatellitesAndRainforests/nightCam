@@ -1221,3 +1221,84 @@ Temp: 20.6 C    Humidity: 69.1%
  --- Finally ---
 =======
 >>>>>>> Stashed changes
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 20.9 C    Humidity: 62.8% 
+ --- image saved --- 23:16:32s__28:01:2023__20.9c__62.8h__halfMoon_right_.jpg
+ --- Keyboard Interrupt --- 
+ --- GPIO cleanup ---
+ --- Finally ---
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 20.8 C    Humidity: 63.4% 
+ --- image saved --- 23:32:06s__28:01:2023__20.8c__63.4h__halfMoon_right_.jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 20.1 C    Humidity: 62.5% 
+ --- image saved --- 23:35:21s__28:01:2023__20.1c__62.5h__halfMoon_right_.jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 20.0 C    Humidity: 62.6% 
+ --- image saved --- 23:35:29s__28:01:2023__20.0c__62.6h__halfMoon_right_.jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 19.9 C    Humidity: 62.5% 
+ --- image saved --- 23:38:24s__28:01:2023__19.9c__62.5h__halfMoon_right_.jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 19.8 C    Humidity: 62.3% 
+ --- image saved --- 23:38:32s__28:01:2023__19.8c__62.3h__halfMoon_right_.jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 19.7 C    Humidity: 62.2% 
+ --- image saved --- 23:38:51s__28:01:2023__19.7c__62.2h__halfMoon_right_.jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 19.8 C    Humidity: 62.1% 
+ --- image saved --- 23:39:00s__28:01:2023__19.8c__62.1h__halfMoon_right_.jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 19.8 C    Humidity: 61.9% 
+ --- image saved --- 23:40:39s__28:01:2023__19.8c__61.9h__halfMoon_right_.jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 19.7 C    Humidity: 61.8% 
+ --- image saved --- 01:22:03s__29:01:2023__19.7c__61.8h__halfMoon_right_.jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 17.2 C    Humidity: 62.2% 
+ --- image saved --- 11:12:47s__29:01:2023__17.2c__62.2h__halfMoon_right_.jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 15.0 C    Humidity: 69.2% 
+ --- image saved --- 11:12:58s__29:01:2023__15.0c__69.2h__halfMoon_right_.jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 15.0 C    Humidity: 69.3% 
+ --- image saved --- 11:13:09s__29:01:2023__15.0c__69.3h__halfMoon_right_.jpg

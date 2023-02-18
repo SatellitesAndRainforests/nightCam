@@ -2,23 +2,13 @@
 ++ dirname /home/pi/nightCam/programs/RPi_Cam_Web_Interface/start.sh
 + cd /home/pi/nightCam/programs/RPi_Cam_Web_Interface
 + source ./config.txt
-<<<<<<< Updated upstream
-++ rpicamdir=nightVisionCam
-++ webserver=nginx
-++ webport=80
-++ user=
-++ webpasswd=password
-++ autostart=no
-++ jpglink=yes
-=======
-++ rpicamdir=html
+++ rpicamdir=camera
 ++ webserver=apache
 ++ webport=80
 ++ user=
 ++ webpasswd=
 ++ autostart=no
 ++ jpglink=no
->>>>>>> Stashed changes
 ++ phpversion=7.4
 + fn_stop
 + sudo killall raspimjpeg
@@ -31,8 +21,4 @@
 + sudo su -c 'raspimjpeg > /dev/null &' www-data
 + '[' -e /etc/debian_version ']'
 + sleep 1
-<<<<<<< Updated upstream
-+ sudo su -c 'php /var/www/nightVisionCam/schedule.php > /dev/null &' www-data
-=======
-+ sudo su -c 'php /var/www/html/schedule.php > /dev/null &' www-data
->>>>>>> Stashed changes
++ sudo su -c 'php /var/www/camera/schedule.php > /dev/null &' www-data

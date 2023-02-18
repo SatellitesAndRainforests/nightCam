@@ -17,12 +17,17 @@
   git clone https://github.com/silvanmelchior/RPi_Cam_Web_Interface.git
   cd Rpi_Cam_Web_Interface
 # auto start 'no' in installation below
+# camera <-- folder name
   ./install.sh
-# http://192.168.1.15/html/   is the url for hte livestream
+set while balance to greyworld at http://ipAddress/camera
+
+# http://192.168.1.15/camera/   is the url for hte livestream
 
   sudo pip3 install adafruit-blinka
 
 # add to /boot/config.txt
+sudo vim /boot/config.txt
+
 	# Activate I2C and enable DS3231 RTC
 	dtoverlay=i2c-rtc,ds3231
   
@@ -34,6 +39,8 @@ ChangeMe
 
   nightWatch should work
 
-
-
-
+# needs service to reset status on reoot
+sudo cp /home/pi/nightCam/programs/nvCamService.service /etc/systemd/system/nvCamService.service
+sudo chmod 644 /etc/systemd/system/nvCamService.service
+sudo systemctl start nvCamService.service
+sudo systemctl enable nvCamService.service
