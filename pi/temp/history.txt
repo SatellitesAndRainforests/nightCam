@@ -1,0 +1,415 @@
+    1  ssh witch@192.168.1.23
+    2  ssh root@192.168.1.23
+    3  ssh witch@192.168.1.23
+    4  ls
+    5  scp -r witch@192.168.1.23:/home/witch/nightCam .
+    6  ls
+    7  exit
+    8  ls
+    9  cd nightCam/
+   10  git status
+   11  vim install.txt 
+   12  vi install.txt 
+   13  vim install.txt 
+   14  exit
+   15  cd nightCam/
+   16  vim install.txt 
+   17  vi install.txt 
+   18  sudo -H apt install python3-picamera
+   19  sudo apt-get install python3-pip
+   20  sudo -H pip3 install --upgrade picamera[array]
+   21  sudo raspi-config 
+   22  sudo python3 -m pip install --upgrade pip setuptools wheel
+   23  history | tail
+   24  sudo pip3 install --install-option="--force-pi" Adafruit_DHT
+   25  sudo pip3 install Adafruit_DHT
+   26  sudo apt install git
+   27  cd programs/
+   28  ls
+   29  rm -fr RPi_Cam_Web_Interface/
+   30  git clone https://github.com/silvamelchior/RPi_Cam_Web_Interface.git
+   31  ls
+   32  cd
+   33  sudo pip3 install adafruit-blinka
+   34  sudo vim /boot/config.txt
+   35  curl -sL https://install.raspap.com | bash
+   36  cd nightCam/
+   37  cat install.txt | tail -4
+   38  sudo cp /home/pi/nightCam/programs/nvCamService.service /etc/systemd/system/nvCamService.service
+   39  sudo chmod 644 /etc/systemd/system/nvCamService.service
+   40  sudo systemctl start nvCamService.service
+   41  sudo systemctl enable nvCamService.service
+   42  systemctl status nvCamService.service 
+   43  systemctl start nvCamService.service 
+   44  system status nvCamStatus.txt
+   45  systemctl status nvCamService.service 
+   46  cd programs/
+   47  ls
+   48  cat ../install.txt 
+   49  ls
+   50  cd RPi_Cam_Web_Interface/
+   51  ls
+   52  ./start.sh 
+   53  ls
+   54  ./install.sh 
+   55  ls
+   56  ./start.sh 
+   57  ls
+   58  top
+   59  ./stop.sh 
+   60  sudo ./start.sh 
+   61  ./stop.sh 
+   62  sudo reboot
+   63  ls
+   64  rm -rf Bookshelf/ Desktop/ Documents/ Downloads/ Music/ Pictures/ Public/ Templates/ Videos/
+   65  ls
+   66  tree
+   67  cd nightCam/
+   68  cd programs/
+   69  ls
+   70  cd tests/
+   71  ls
+   72  ls -1
+   73  python3 testDHT.py 
+   74  c d..
+   75  ls
+   76  cd ..
+   77  ls
+   78  cd ..
+   79  ls
+   80  ca install.txt 
+   81  cat install.txt 
+   82  sudo apt-get update
+   83  sudo apt-get upgrade
+   84  vim install.txt 
+   85  ls
+   86  cd nightCam/
+   87  ls
+   88  rm needsServiceToResetNvCaStatus 
+   89  ls
+   90  ls programs/
+   91  cd programs/
+   92  ls
+   93  ls nvCamService.service 
+   94  pwd
+   95  path nvCamService.service 
+   96  filepath nvCamService.service 
+   97  ls
+   98  pwd
+   99  cd ..
+  100  ls
+  101  pwd
+  102  cat programs/nvCamService.service 
+  103  cd nightCam/programs/RPi_Cam_Web_Interface/
+  104  ls
+  105  ./start.sh 
+  106  ./stop.sh 
+  107  cd ../
+  108  ls
+  109  pyton3 liveStream.py 
+  110  python3 liveStream.py 
+  111  cd ../
+  112  ls
+  113  ls -1
+  114  cd test
+  115  cd programs/tests/
+  116  ls -1
+  117  python3 testDHT.py 
+  118  ls -1
+  119  python3 testMoon.py 
+  120  python3 testMotion.py 
+  121  ls
+  122  ls -1
+  123  cat testVideo.py 
+  124  ls
+  125  ls -1
+  126  python3 testCamera.py 
+  127  ls ../../images/
+  128  rm ../../images/*.jpg
+  129  ls ../../
+  130  python3 testCamera.py 
+  131  ls ../../images/
+  132  ls
+  133  rm *.jpg
+  134  ls
+  135  pythone testLight.py 
+  136  python3 testLight.py 
+  137  ls
+  138  python3 testLight.py 
+  139  ls
+  140  cd ..
+  141  python3 liveStream.py 
+  142  vim liveStream.py 
+  143  cd RPi_Cam_Web_Interface/
+  144  ./start.sh 
+  145  ./stop.sh 
+  146  cd ..
+  147  python3 liveStream.py 
+  148  cd ..
+  149  ls
+  150  vim install.txt 
+  151  cd programs/
+  152  ls
+  153  cd test
+  154  cd tests/
+  155  ls -1
+  156  sudo apt-get update
+  157  sudo apt-get upgrade
+  158  vim ../../install.txt 
+  159  ls
+  160  rm test.jpg 
+  161  cd ..
+  162  ls
+  163  cd ..
+  164  ls
+  165  cd ..
+  166  cd nightCam/
+  167  git status
+  168  git add *
+  169  git status
+  170  cat .gitignore 
+  171  vim .gitignore 
+  172  cd images/
+  173  ls
+  174  ls -al
+  175  vim .gitignore
+  176  cd temp/
+  177  ls
+  178  vim .gitignore
+  179  cd ..
+  180  ls
+  181  cd ..
+  182  ls
+  183  vim .gitignore 
+  184  git status
+  185  git add *
+  186  git status
+  187  git add -A
+  188  git status
+  189  git commit -m "working"
+  190  git push
+  191  git status
+  192  sudo reboot
+  193  ls
+  194  cd nightCam/
+  195  ls
+  196  cd programs/RPi_Cam_Web_Interface/
+  197  ls
+  198  ./remove.sh 
+  199  ls
+  200  cd ..
+  201  ls
+  202  cd /var/www/
+  203  ls
+  204  cd
+  205  ccd nightCam/programs/RPi_Cam_Web_Interface/
+  206  cd nightCam/programs/RPi_Cam_Web_Interface/
+  207  ls
+  208  ./install.sh 
+  209  ls
+  210  cd ../..
+  211  ls
+  212  vim install.txt 
+  213  cd programs/
+  214  ls
+  215  python3 liveStream.py 
+  216  cd 
+  217  ls
+  218  history | grep curl
+  219  curl -sL https://install.raspap.com | bash
+  220  sudo reboot
+  221  ls
+  222  history | grep curl
+  223  curl -sL https://install.raspap.com | bash
+  224  sudo reboot
+  225  ls
+  226  top
+  227  ls
+  228  sudo su
+  229  cd nightCam/programs/
+  230  ls
+  231  python3 liveStream.py 
+  232  cd ..
+  233  ls
+  234  exit
+  235  ls
+  236  cd nightCa
+  237  cd nightCa,
+  238  cd nightCam
+  239  cat nvCamStatus.txt
+  240  A
+  241  cat nvC*
+  242  exit
+  243  ls
+  244  exit
+  245  ls
+  246  cd nightCam/
+  247  cat nvCamStatus.txt 
+  248  cd programs/
+  249  python3 liveStream.py 
+  250  cat ../nvCamStatus.txt 
+  251  python3 liveStream.py &
+  252  cat ../nvCamStatus.txt 
+  253  exit
+  254  cd nightCam/programs/
+  255  ls
+  256  ls -al1
+  257  cd ..
+  258  ls -al1
+  259  cat .startAutomatedCapturing.sh 
+  260  nohup python3 programs/nightWatch.py &
+  261  ls images/
+  262  cd images/
+  263  ls
+  264  touch start5files
+  265  ls
+  266  top
+  267  :q
+  268  exit
+  269  top
+  270  exit
+  271  cd nightCam/images/
+  272  ls
+  273  pwd
+  274  exit
+  275  shudo shutdown -h now
+  276  sudo shutdown -h now
+  277  ls
+  278  cat nvCamStatus.txt 
+  279  exit
+  280  cd nightCam/
+  281  cat nvCamStatus.txt 
+  282  sudo reboot
+  283  cd nightCam/i
+  284  cd nightCam/
+  285  cat nvCamStatus.txt 
+  286  cd images/
+  287  ls
+  288  ls -1
+  289  top
+  290  cat ../nvCamStatus.txt 
+  291  top
+  292  ls
+  293  pwd
+  294  exit
+  295  ls
+  296  cd nightCam/
+  297  tree
+  298  ls
+  299  cd programs/
+  300  ls
+  301  cd tests/
+  302  ls
+  303  cat testStream.py 
+  304  cat testVideo.py 
+  305  ls
+  306  cd ..
+  307  ls
+  308  cat liveStream.py 
+  309  vim liveStream.py 
+  310  python3 liveStream.py 
+  311  ls
+  312  vim liveStream.py 
+  313  cat liveStream.py 
+  314  python3 liveStream.py 
+  315  sudo shutdown
+  316  sudo shutdown -h now
+  317  ls
+  318  cd nightCam/
+  319  ls
+  320  cd images/
+  321  ls
+  322  cd temp/
+  323  ls
+  324  cd ..
+  325  ls
+  326  cd programs/
+  327  ls
+  328  cd tests/
+  329  ls
+  330  python3 testCamera.py 
+  331  ls
+  332  pwd
+  333  mv 07-05-23_16\:50\:18.jpg test.jpg
+  334  pwd
+  335  exit
+  336  cd nightCam/
+  337  ls
+  338  cd programs/
+  339  LS
+  340  ls
+  341  python3 liveStream.py 
+  342  lls
+  343  ls
+  344  vim nightWatch.py settingsTest.py
+  345  cp nightWatch.py settingsTest.py
+  346  vim settingsTest.py 
+  347  ls
+  348  python3 settingsTest.py 
+  349  ls ../images/temp/
+  350  vim settingsTest.py 
+  351  python3 settingsTest.py 
+  352  exit
+  353  cd nightCam/programs/
+  354  ls
+  355  vim clearImages.sh 
+  356  ./clearImages.sh 
+  357  tree ../images/
+  358  ls ../images/
+  359  ls -al ../images/
+  360  ls ../images/temp/
+  361  l
+  362  ls
+  363  mv settingsTest.py simpleSettingsTest.py
+  364  grep -rnw '.' -e 'range'
+  365  grep -rnw '.' -e 'range' | grep .py
+  366  java
+  367  d tests/
+  368  vim settingsTest.py
+  369  cd nightCam/programs/
+  370  ./clearImages.sh 
+  371  python3 liveStream.py 
+  372  python3 simpleSettingsTest.py 
+  373  exit
+  374  cd nightCam/programs/
+  375  vim nightWatch.py 
+  376  le
+  377  python3 nightWatch.py 
+  378  sudo shutdown
+  379  sudo shutdown -h now
+  380  ls
+  381  sudo vim /boot/config.txt
+  382  cat /sys/class/leds/led0/brightness
+  383  echo '1' > /sys/class/leds/led0/brightness
+  384  sudo echo '1' > /sys/class/leds/led0/brightness
+  385  echo 1 | sudo tee /sys/class/leds/led0/brightness
+  386  cat /sys/class/leds/led0/brightness
+  387  sudo vim /sys/class/leds/led0/brightness
+  388  cat /sys/class/leds/led0/brightness
+  389  sudo vim /boot/config.txt
+  390  sudo reboot
+  391  sudo vim /boot/config.txt
+  392  sudo reboot
+  393  ls
+  394  cd nightCam/programs/
+  395  python3 liveStream.py 
+  396  cd ..
+  397  ls
+  398  vim nvCamStatus.txt 
+  399  cd programs/
+  400  python3 liveStream.py 
+  401  cd tests/
+  402  python3 getTime.py 
+  403  vim getTime.py 
+  404  python3 getTime.py 
+  405  vim getTime.py 
+  406  python3 getTime.py 
+  407  date
+  408  history | grep date
+  409  history | grep time
+  410  history
+  411  cd
+  412  ls
+  413  mkdir temp
+  414  cd temp/
+  415  history > history.txt

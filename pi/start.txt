@@ -4,7 +4,7 @@
 + source ./config.txt
 ++ rpicamdir=camera
 ++ webserver=apache
-++ webport=80
+++ webport=8080
 ++ user=
 ++ webpasswd=
 ++ autostart=no

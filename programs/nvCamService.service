@@ -1,9 +1,0 @@
-[Unit]
-Description=resets nvCamStatus.txt to status:idle
-
-[Service]
-Type=oneshot
-ExecStart=/home/pi/nightCam/startScript.sh
-
-[Install]
-WantedBy=default.target
