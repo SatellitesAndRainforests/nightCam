@@ -59,15 +59,8 @@ def capture_image():
     write_to_log(" --- light on --- ")
     GPIO.output(21, GPIO.HIGH)
     
-    #write_to_log(" --- taking photo --- ")
-    write_to_log(" --- taking video--- ")
-
-    videoCommand = ('raspivid -o /home/pi/nightCam/videos/temp/temp.h264 -w 1280 -h 720 -awb greyworld -ISO 800 --sharpness 100 -t 10000') 
-
-    os.system( videoCommand )
-
-
-#    cameraCommand = ('raspistill '
+    write_to_log(" --- taking photo --- ")
+    cameraCommand = ('raspistill '
             # '-ss 750000 '  #3/4 of a second - fastest best image with motion blur.
             # '-ss 40000 '   #1/25 of a second (very little motion blur at a very close range ~30cm).
             # '-ss 40000 '   #1/25 [New Light] iso 800 grany, dark. little motion blur. try a little longer.
@@ -77,19 +70,18 @@ def capture_image():
              # '-ss 2000000 '  #2 seconds 800iso bad -
             # '-ss 40000 '   #1/25 of a second (very little motion blur at a very close range ~30cm).
             # '-ss 40000 '   #1/25 [New Light] iso 800 grany, dark. little motion blur. try a little longer.
-#            '-ss 80000 '   # <----- this one #2/25 [New Light] iso 800 grany, dark. little motion blur. try a little longer.
+            '-ss 80000 '   # <----- this one #2/25 [New Light] iso 800 grany, dark. little motion blur. try a little longer.
             # '-ss 250000 '   #1/4 of a second (complete background, some motion blur ~2meters) 
                                 #Can get some OK images at every distance with the background.
             #'-ss 100000 '  #1/10 of a second (almost no background, motion blur ~2meters).
             #'-ss 150000 '  #1/15  too blury.
             #'-ss 200000 '  #1/20  blurry
-#            '-ISO 800 '
-#            '-awb greyworld '
-#            '--sharpness 100 '
-#            '--quality 100 '
-#            '-o /home/pi/nightCam/images/temp/temp.jpg')
-#    os.system( cameraCommand )
-
+            '-ISO 800 '
+            '-awb greyworld '
+            '--sharpness 100 '
+            '--quality 100 '
+            '-o /home/pi/nightCam/images/temp/temp.jpg')
+    os.system( cameraCommand )
     
     write_to_log(" --- light off --- ")
     GPIO.output(21, GPIO.LOW)
@@ -139,8 +131,7 @@ def calc_moon_phase():
 def add_information_to_filename():
 
     filename_sensor_data="sensorError"
-    #file_ext=".jpg"
-    file_ext=".h264"
+    file_ext=".jpg"
 
     moon_phase = calc_moon_phase()
 
@@ -162,13 +153,10 @@ def add_information_to_filename():
             continue
 
     new_filename = current_datetime + filename_sensor_data + "__" + moon_phase + file_ext
-#    old_name=r"/home/pi/nightCam/images/temp/temp.jpg"
-    old_name=r"/home/pi/nightCam/videos/temp/temp.h264"
-#    new_name=r"/home/pi/nightCam/images/" + new_filename
-    new_name=r"/home/pi/nightCam/videos/" + new_filename
+    old_name=r"/home/pi/nightCam/images/temp/temp.jpg"
+    new_name=r"/home/pi/nightCam/images/" + new_filename
     os.rename(old_name, new_name)
-#    write_to_log (" --- image saved --- " + new_filename)
-    write_to_log (" --- video saved --- " + new_filename)
+    write_to_log (" --- image saved --- " + new_filename)
 
 
 def check_status_is_still_capturing_or_exit():
