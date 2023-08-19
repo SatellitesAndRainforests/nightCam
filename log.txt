@@ -2300,3 +2300,18 @@ Temp: 25.3 C    Humidity: 83.1%
  --- Keyboard Interrupt --- 
  --- GPIO cleanup ---
  --- Finally ---
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking video --- 
+ --- light off --- 
+Temp: 25.4 C    Humidity: 74.3% 
+ --- image saved --- 21:05:06s__19:08:2023__25.4c__74.3h__cresent_right_.h264
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking video --- 
+ --- light off --- 
+Temp: 25.7 C    Humidity: 74.2% 
+ --- image saved --- 21:05:33s__19:08:2023__25.7c__74.2h__cresent_right_.h264
+ --- Keyboard Interrupt --- 
+ --- GPIO cleanup ---
+ --- Finally ---
