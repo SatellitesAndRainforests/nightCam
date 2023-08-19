@@ -1,0 +1,9 @@
+libcamera-vid -n -t 5000 -o test.h264 --mode 1920:1080 --width 1920 --height 1080
+libcamera-jpeg -n -o test.jpg
+
+#stream
+libcamera-vid -t 0 --inline -o udp://192.168.1.16:8554
+libcamera-vid -t 0 --inline -o udp://<ip of client>:8554
+sudo ufw allow 8554 (on client)
+ffplay udp://192.168.1.15:8554 -fflags nobuffer -flags low_delay -framedrop
+ffplay udp://<ip of pi>:8554 -fflags nobuffer -flags low_delay -framedrop

@@ -2029,3 +2029,274 @@ Temp: 16.4 C    Humidity: 77.1%
  --- light off --- 
 Temp: 16.5 C    Humidity: 77.8% 
  --- image saved --- 01:48:50s__17:07:2023__16.5c__77.8h__newMoon.jpg
+ --- Keyboard Interrupt --- 
+ --- GPIO cleanup ---
+ --- Finally ---
+ --- Keyboard Interrupt --- 
+ --- GPIO cleanup ---
+ --- Finally ---
+ --- Keyboard Interrupt --- 
+ --- GPIO cleanup ---
+ --- Finally ---
+ --- Keyboard Interrupt --- 
+ --- GPIO cleanup ---
+ --- Finally ---
+ --- Keyboard Interrupt --- 
+ --- GPIO cleanup ---
+ --- Finally ---
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+ --- light off --- 
+Temp: 24.4 C    Humidity: 85.2% 
+ --- image saved --- 18:13:35s__12:08:2023__24.4c__85.2h__cresent_left_.jpg
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking photo --- 
+                                                                                         --- Motion Detected --- 
+ --- light on --- 
+ --- taking video --- 
+ --- light off --- 
+Temp: 23.1 C    Humidity: 91.3% 
+ --- image saved --- 12:49:06s__19:08:2023__23.1c__91.3h__cresent_right_.h264
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking video --- 
+ --- light off --- 
+Temp: 24.0 C    Humidity: 87.3% 
+ --- image saved --- 12:49:36s__19:08:2023__24.0c__87.3h__cresent_right_.h264
+ --- Keyboard Interrupt --- 
+ --- GPIO cleanup ---
+ --- Finally ---
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking video --- 
+ --- light off --- 
+Temp: 24.0 C    Humidity: 88.0% 
+ --- image saved --- 12:52:33s__19:08:2023__24.0c__88.0h__cresent_right_.h264
+ --- Keyboard Interrupt --- 
+ --- GPIO cleanup ---
+ --- Finally ---
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking video --- 
+ --- light off --- 
+Temp: 24.1 C    Humidity: 87.3% 
+ --- image saved --- 12:54:14s__19:08:2023__24.1c__87.3h__cresent_right_.h264
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking video --- 
+ --- light off --- 
+Temp: 24.0 C    Humidity: 86.5% 
+ --- image saved --- 12:54:48s__19:08:2023__24.0c__86.5h__cresent_right_.h264
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking video --- 
+ --- light off --- 
+ --- Keyboard Interrupt --- 
+ --- GPIO cleanup ---
+ --- Finally ---
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking video --- 
+ --- light off --- 
+ --- Keyboard Interrupt --- 
+ --- GPIO cleanup ---
+ --- Finally ---
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking video --- 
+ --- light off --- 
+Temp: 24.1 C    Humidity: 86.1% 
+ --- image saved --- 12:59:33s__19:08:2023__24.1c__86.1h__cresent_right_.h264
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking video --- 
+ --- light off --- 
+Temp: 24.2 C    Humidity: 86.2% 
+ --- image saved --- 12:59:51s__19:08:2023__24.2c__86.2h__cresent_right_.h264
+ --- Keyboard Interrupt --- 
+ --- GPIO cleanup ---
+ --- Finally ---
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking video --- 
+ --- light off --- 
+Temp: 24.2 C    Humidity: 86.2% 
+ --- image saved --- 13:19:10s__19:08:2023__24.2c__86.2h__cresent_right_.h264
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking video --- 
+ --- light off --- 
+Temp: 24.4 C    Humidity: 83.3% 
+ --- image saved --- 13:20:01s__19:08:2023__24.4c__83.3h__cresent_right_.h264
+ --- Keyboard Interrupt --- 
+ --- GPIO cleanup ---
+ --- Finally ---
+ --- Keyboard Interrupt --- 
+ --- GPIO cleanup ---
+ --- Finally ---
+ --- Keyboard Interrupt --- 
+ --- GPIO cleanup ---
+ --- Finally ---
+ --- Keyboard Interrupt --- 
+ --- GPIO cleanup ---
+ --- Finally ---
+ --- Keyboard Interrupt --- 
+ --- GPIO cleanup ---
+ --- Finally ---
+ --- Keyboard Interrupt --- 
+ --- GPIO cleanup ---
+ --- Finally ---
+ --- Keyboard Interrupt --- 
+ --- GPIO cleanup ---
+ --- Finally ---
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking video --- 
+ --- light off --- 
+ --- Keyboard Interrupt --- 
+ --- GPIO cleanup ---
+ --- Finally ---
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking video --- 
+ --- light off --- 
+ --- Keyboard Interrupt --- 
+ --- GPIO cleanup ---
+ --- Finally ---
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking video --- 
+ --- light off --- 
+ --- Keyboard Interrupt --- 
+ --- GPIO cleanup ---
+ --- Finally ---
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking video --- 
+ --- light off --- 
+ --- Keyboard Interrupt --- 
+ --- GPIO cleanup ---
+ --- Finally ---
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking video --- 
+ --- light off --- 
+ --- Keyboard Interrupt --- 
+ --- GPIO cleanup ---
+ --- Finally ---
+ --- Keyboard Interrupt --- 
+ --- GPIO cleanup ---
+ --- Finally ---
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking video --- 
+ --- light off --- 
+ --- Keyboard Interrupt --- 
+ --- GPIO cleanup ---
+ --- Finally ---
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking video --- 
+ --- light off --- 
+ --- Keyboard Interrupt --- 
+ --- GPIO cleanup ---
+ --- Finally ---
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking video --- 
+ --- light off --- 
+Temp: 24.5 C    Humidity: 83.2% 
+ --- image saved --- 13:52:08s__19:08:2023__24.5c__83.2h__cresent_right_.h264
+ --- Keyboard Interrupt --- 
+ --- GPIO cleanup ---
+ --- Finally ---
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking video --- 
+ --- light off --- 
+Temp: 24.7 C    Humidity: 89.5% 
+ --- image saved --- 14:06:35s__19:08:2023__24.7c__89.5h__cresent_right_.h264
+ --- Keyboard Interrupt --- 
+ --- GPIO cleanup ---
+ --- Finally ---
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking video --- 
+ --- light off --- 
+Temp: 25.2 C    Humidity: 91.9% 
+ --- image saved --- 14:07:35s__19:08:2023__25.2c__91.9h__cresent_right_.h264
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking video --- 
+ --- light off --- 
+Temp: 25.2 C    Humidity: 86.2% 
+ --- image saved --- 14:07:57s__19:08:2023__25.2c__86.2h__cresent_right_.h264
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking video --- 
+ --- light off --- 
+Temp: 25.2 C    Humidity: 85.1% 
+ --- except --- 
+ --- GPIO cleanup ---
+ --- Finally ---
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking video --- 
+ --- light off --- 
+Temp: 25.2 C    Humidity: 83.4% 
+ --- image saved --- 14:08:32s__19:08:2023__25.2c__83.4h__cresent_right_.h264
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking video --- 
+ --- light off --- 
+Temp: 25.2 C    Humidity: 83.6% 
+ --- image saved --- 14:08:50s__19:08:2023__25.2c__83.6h__cresent_right_.h264
+ --- Keyboard Interrupt --- 
+ --- GPIO cleanup ---
+ --- Finally ---
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking video --- 
+ --- light off --- 
+Temp: 25.2 C    Humidity: 86.9% 
+ --- except --- 
+ --- GPIO cleanup ---
+ --- Finally ---
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking video --- 
+ --- light off --- 
+Temp: 25.3 C    Humidity: 81.1% 
+ --- image saved --- 14:15:15s__19:08:2023__25.3c__81.1h__cresent_right_.h264
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking video --- 
+ --- light off --- 
+Temp: 25.4 C    Humidity: 88.4% 
+ --- image saved --- 14:15:32s__19:08:2023__25.4c__88.4h__cresent_right_.h264
+ --- Keyboard Interrupt --- 
+ --- GPIO cleanup ---
+ --- Finally ---
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking video --- 
+ --- light off --- 
+Temp: 25.4 C    Humidity: 77.8% 
+ --- image saved --- 14:20:48s__19:08:2023__25.4c__77.8h__cresent_right_.h264
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking video --- 
+ --- light off --- 
+Temp: 25.3 C    Humidity: 83.1% 
+ --- except --- 
+ --- GPIO cleanup ---
+ --- Finally ---
+ --- Motion Detected --- 
+ --- light on --- 
+ --- taking video --- 
+ --- light off --- 
+ --- Keyboard Interrupt --- 
+ --- GPIO cleanup ---
+ --- Finally ---

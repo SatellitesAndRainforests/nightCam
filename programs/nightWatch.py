@@ -20,7 +20,20 @@ GPIO.setup(21, GPIO.OUT)
 DHT_SENSOR = Adafruit_DHT.DHT22
 DHT_GPIO_PIN = 24
 
+startTime = 13  # <-- change me < -------------------------------
+endTime = 7
+
 baseline_new_moon = datetime(2022, 2, 1)    # There was a new moon on this date at 00:46am.
+
+def welcome_message():
+    print("-- welcome --");
+    print("date is set ?  current datetime:  ");
+    dateCommand = ('date');
+    os.system( dateCommand );
+    print("");
+    print("capture time is between: " + str(startTime) + " and " + str(endTime) );
+    print("");
+
 
 def check_status_is_idle_or_exit():
     with open("/home/pi/nightCam/nvCamStatus.txt", "r") as status_file:
@@ -31,16 +44,18 @@ def check_status_is_idle_or_exit():
             print("exiting nightWatch.py")
             exit()
 
+
 def captureTime():
 
     # dateTime = strftime("%d %m %y  %I %M %p");
     currentHours = strftime("%H");
     hour = int(currentHours);
 
-    if ( ( hour >= 22 ) or ( hour < 6 ) ):
+    if ( ( hour >= startTime ) or ( hour < endTime ) ):
         return True;
     else:
         return False;
+
 
 def write_to_log( message ):
     with open("/home/pi/nightCam/log.txt", "a") as log_file:
@@ -59,33 +74,16 @@ def capture_image():
     write_to_log(" --- light on --- ")
     GPIO.output(21, GPIO.HIGH)
     
-    write_to_log(" --- taking photo --- ")
-    cameraCommand = ('raspistill '
-            # '-ss 750000 '  #3/4 of a second - fastest best image with motion blur.
-            # '-ss 40000 '   #1/25 of a second (very little motion blur at a very close range ~30cm).
-            # '-ss 40000 '   #1/25 [New Light] iso 800 grany, dark. little motion blur. try a little longer.
-            # this one --> '-ss 80000 '   #2/25 [New Light] iso 800 grany, dark. little motion blur. try a little longer.
-            #'-ss 250000 '   #1/4 of a second (complete background, some motion blur ~2meters) 
-            #  '-ss 750000 '  #3/4 of a second - fastest best image with motion blur.
-             # '-ss 2000000 '  #2 seconds 800iso bad -
-            # '-ss 40000 '   #1/25 of a second (very little motion blur at a very close range ~30cm).
-            # '-ss 40000 '   #1/25 [New Light] iso 800 grany, dark. little motion blur. try a little longer.
-            '-ss 80000 '   # <----- this one #2/25 [New Light] iso 800 grany, dark. little motion blur. try a little longer.
-            # '-ss 250000 '   #1/4 of a second (complete background, some motion blur ~2meters) 
-                                #Can get some OK images at every distance with the background.
-            #'-ss 100000 '  #1/10 of a second (almost no background, motion blur ~2meters).
-            #'-ss 150000 '  #1/15  too blury.
-            #'-ss 200000 '  #1/20  blurry
-            '-ISO 800 '
-            '-awb greyworld '
-            '--sharpness 100 '
-            '--quality 100 '
-            '-o /home/pi/nightCam/images/temp/temp.jpg')
+    # write_to_log(" --- taking photo --- ")
+    #cameraCommand = ('libcamera-jpeg -n -o /home/pi/nightCam/images/temp/temp.jpg')
+
+    write_to_log(" --- taking video --- ")
+    cameraCommand = ('libcamera-vid -n -t 10000 -o /home/pi/nightCam/videos/temp/temp.h264 --mode 1920:1080 --width 1920 --height 1080 --awb incandescent');
+
     os.system( cameraCommand )
     
     write_to_log(" --- light off --- ")
     GPIO.output(21, GPIO.LOW)
-
 
 
 
@@ -131,7 +129,8 @@ def calc_moon_phase():
 def add_information_to_filename():
 
     filename_sensor_data="sensorError"
-    file_ext=".jpg"
+    #file_ext=".jpg"
+    file_ext=".h264"
 
     moon_phase = calc_moon_phase()
 
@@ -153,8 +152,8 @@ def add_information_to_filename():
             continue
 
     new_filename = current_datetime + filename_sensor_data + "__" + moon_phase + file_ext
-    old_name=r"/home/pi/nightCam/images/temp/temp.jpg"
-    new_name=r"/home/pi/nightCam/images/" + new_filename
+    old_name=r"/home/pi/nightCam/videos/temp/temp.h264"
+    new_name=r"/home/pi/nightCam/videos/" + new_filename
     os.rename(old_name, new_name)
     write_to_log (" --- image saved --- " + new_filename)
 
@@ -169,19 +168,21 @@ def check_status_is_still_capturing_or_exit():
 
 def main():
 
+    welcome_message()
     check_status_is_idle_or_exit()
     write_status_to_file("status:capturing")
 
     try:
         while True:
             check_status_is_still_capturing_or_exit()
+            # if ( True ):
             if ( captureTime() ):
                 i = GPIO.input(17)      # sensor sends 1 for motion, otherwise 0
                 if i==1:
                     write_to_log(" --- Motion Detected --- ")
                     capture_image()
                     add_information_to_filename()
-                    sleep(1)
+            sleep(0.1);
 
     except KeyboardInterrupt:
         write_to_log(" --- Keyboard Interrupt --- ")
@@ -197,17 +198,6 @@ def main():
 
 
 main()
-
-
-
-
-
-
-
-
-
-
-
 
 
 
